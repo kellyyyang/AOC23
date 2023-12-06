@@ -1,6 +1,7 @@
+nums = {} # (start_x, start_y) : number (as a string)
+
 def part1(lines):
     # nums = [] # in the form [((start_x, start_y), (end_x, end_y)), ((start_x, start_y), (end_x, end_y)),...]
-    nums = {} # (start_x, start_y) : number (as a string)
     prev_is_num = True
     prev_num_start_ind = (0,0)
     for i in range(len(lines)):
